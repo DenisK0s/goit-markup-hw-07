@@ -1,0 +1,36 @@
+.clients-list {
+	display: flex;
+	justify-content: center;
+}
+
+.clients-list-item:not(:last-child) {
+	margin-right: 30px;
+}
+
+.clients-list-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 170px;
+	height: 90px;
+
+	border: 1px solid #afb1b8;
+	border-radius: 4px;
+
+	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-list-link:hover {
+	border: 1px solid #2196f3;
+}
+
+.clients-list-icon {
+	fill: var(--main-icon-color);
+
+	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-list-link:hover .clients-list-icon,
+.clients-list-link:focus .clients-list-icon {
+	fill: var(--accent-color);
+}

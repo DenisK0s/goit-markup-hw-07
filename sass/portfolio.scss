@@ -1,13 +1,11 @@
-// utils
-@import "../sass/utils/variables";
-@import "../sass/utils/visually-hidden";
-
 // base
-@import "../sass/base/common";
-@import "../sass/base/container";
+@import "../sass/base/visually-hidden";
+@import "../sass/utils/variables";
 
 // components
+@import "../sass/components/container";
 @import "../sass/components/modal";
+@import "../sass/components/section";
 @import "../sass/components/logo";
 @import "../sass/components/section-title";
 @import "../sass/components/social-links";
@@ -17,9 +15,6 @@
 @import "../sass/layout/header";
 @import "../sass/layout/navigation";
 @import "../sass/layout/contacts";
-@import "../sass/layout/hero";
-@import "../sass/layout/advantages";
-@import "../sass/layout/specialization";
-@import "../sass/layout/team";
-@import "../sass/layout/clients";
+@import "../sass/layout/button-list";
+@import "../sass/layout/work-list";
 @import "../sass/layout/footer";
