@@ -1,11 +1,12 @@
-// base
-@import "../sass/base/visually-hidden";
+// utils
 @import "../sass/utils/variables";
+@import "../sass/utils/visually-hidden";
+
+// base
+@import "../sass/base/common";
+@import "../sass/base/container";
 
 // components
-@import "../sass/components/container";
-@import "../sass/components/modal";
-@import "../sass/components/section";
 @import "../sass/components/logo";
 @import "../sass/components/section-title";
 @import "../sass/components/social-links";

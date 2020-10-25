@@ -1,6 +1,6 @@
 body {
-	color: var(--main-text-color);
-	font-family: var(--main-font);
+	color: $main-text-color;
+	font-family: $main-font;
 	font-style: normal;
 
 	background-color: #ffffff;
@@ -28,7 +28,7 @@ img {
 }
 
 .current {
-	color: var(--accent-color);
+	color: $accent-color;
 }
 
 .section {

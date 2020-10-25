@@ -1,19 +1,19 @@
 .logo {
-	font-family: var(--sub-font);
-	font-weight: var(--bold-font-weight);
+	font-family: $sub-font;
+	font-weight: $bold-font-weight;
 	font-size: 26px;
 	line-height: 1.192;
 	letter-spacing: 0.03em;
-}
 
-.logo-web {
-	color: var(--accent-color);
-}
+	&__web {
+		color: $accent-color;
+	}
 
-.logo-studio-black {
-	color: var(--text-logo-color);
-}
+	&__studio--black {
+		color: $text-logo-color;
+	}
 
-.logo-studio-white {
-	color: var(--primary-white-color);
+	&__studio--white {
+		color: $primary-white-color;
+	}
 }
