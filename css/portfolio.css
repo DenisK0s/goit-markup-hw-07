@@ -444,7 +444,7 @@ img {
   margin-top: 20px;
 }
 
-.address-list-location-link {
+.address__list-location-link {
   color: #ffffff;
   font-weight: 400;
   font-size: 14px;
@@ -452,7 +452,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-.address-list-link {
+.address__list-link {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   font-size: 14px;
@@ -460,7 +460,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-.address-list-item.mail {
+.address__list-item.mail {
   padding-top: 9px;
   padding-bottom: 6px;
 }
@@ -481,7 +481,7 @@ img {
   margin-left: 93px;
 }
 
-.subscription-box-wrapper {
+.subscription-box__wrapper {
   position: relative;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -491,7 +491,7 @@ img {
           align-items: center;
 }
 
-.subscription-box-input {
+.subscription-box__input {
   width: 358px;
   height: 50px;
   padding-left: 14px;
@@ -507,11 +507,11 @@ img {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.subscription-box-input:hover, .subscription-box-input:focus {
+.subscription-box__input:hover, .subscription-box__input:focus {
   border: 1px solid #188ce8;
 }
 
-.subscription-box-input::-webkit-input-placeholder {
+.subscription-box__input::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.6);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -520,7 +520,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-.subscription-box-input:-ms-input-placeholder {
+.subscription-box__input:-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.6);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -529,7 +529,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-.subscription-box-input::-ms-input-placeholder {
+.subscription-box__input::-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.6);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -538,7 +538,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-.subscription-box-input::placeholder {
+.subscription-box__input::placeholder {
   color: rgba(255, 255, 255, 0.6);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -547,7 +547,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-.subscription-box-btn {
+.subscription-box__btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -562,11 +562,11 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.subscription-box-btn:hover, .subscription-box-btn:focus {
+.subscription-box__btn:hover, .subscription-box__btn:focus {
   background-color: #188ce8;
 }
 
-.subscription-box-btn-text {
+.subscription-box__btn-text {
   margin-right: 10px;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
@@ -576,7 +576,7 @@ img {
   letter-spacing: 0.06em;
 }
 
-.subscription-box-btn-icon {
+.subscription-box__btn-icon {
   fill: #ffffff;
 }
 /*# sourceMappingURL=portfolio.css.map */
