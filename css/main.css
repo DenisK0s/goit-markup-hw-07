@@ -112,8 +112,8 @@ img {
 }
 
 .backdrop.is-hidden .modal {
-  -webkit-transform: translate(-50%, -50%) scale(0.8);
-          transform: translate(-50%, -50%) scale(0.8);
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
 }
 
 .close-btn {
@@ -158,24 +158,13 @@ img {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.666;
+  line-height: 1.166;
   letter-spacing: 0.01em;
 }
 
 .modal-form-wrapper {
   display: block;
   position: relative;
-}
-
-.modal-form-message-field {
-  display: inline-block;
-  margin-bottom: 20px;
-  color: #757575;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.666;
-  letter-spacing: 0.01em;
 }
 
 .modal-form-input {
@@ -223,6 +212,17 @@ img {
   cursor: pointer;
 }
 
+.modal-form-message-field {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #757575;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.166;
+  letter-spacing: 0.01em;
+}
+
 .modal-form-message:focus {
   outline: none;
   border: 1px solid #2196f3;
@@ -234,7 +234,7 @@ img {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.666;
+  line-height: 1.166;
   letter-spacing: 0.01em;
 }
 
@@ -244,7 +244,7 @@ img {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.666;
+  line-height: 1.166;
   letter-spacing: 0.01em;
 }
 
@@ -254,7 +254,7 @@ img {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.666;
+  line-height: 1.166;
   letter-spacing: 0.01em;
 }
 
@@ -264,7 +264,7 @@ img {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.666;
+  line-height: 1.166;
   letter-spacing: 0.01em;
 }
 
@@ -306,7 +306,7 @@ img {
 
 .modal-form-agreement:focus + .modal-form-agreement-check::before {
   background-color: #2196f3;
-  background-image: url(/Images/icons-svg/icon-check.svg);
+  background-image: url(../Images/icons-svg/icon-check.svg);
   border-radius: 2px;
 }
 
